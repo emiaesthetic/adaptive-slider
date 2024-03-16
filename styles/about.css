@@ -15,7 +15,7 @@
 
   display: inline-block;
   margin-bottom: 35px;
-  padding: 0 12px;
+  padding: 0 23px;
 
   font-size: 22px;
   font-weight: 500;
@@ -44,7 +44,7 @@
 
 .about__description {
   max-width: 724px;
-  margin: 0 auto 50px;
+  margin: 0 auto 58px;
 
   font-size: 18px;
   line-height: 1.41;
@@ -78,10 +78,11 @@
 
   width: 122px;
   height: 122px;
-  padding-top: 20px;
+  padding-top: 36px;
 
   font-size: 57px;
   font-weight: 500;
+  line-height: 1;
   counter-increment: count;
 
   color: var(--color-light);
@@ -95,13 +96,13 @@
 
 @media (max-width: 1024px) {
   .about__title {
-    margin-bottom: 23px;
+    margin-bottom: 25px;
     font-size: 32px;
   }
 
   .about__subtitle {
-    margin-bottom: 33px;
-    padding: 0 10px;
+    margin-bottom: 32px;
+    padding: 0 22px;
     font-size: 20px;
   }
 
@@ -112,12 +113,8 @@
 
   .about__description {
     max-width: 666px;
-    margin-bottom: 50px;
+    margin-bottom: 57px;
     font-size: 16px;
-  }
-
-  .about__list {
-    column-gap: 30px;
   }
 
   .about__item {
@@ -129,9 +126,10 @@
   .about__item:before {
     width: 104px;
     height: 104px;
-    padding-top: 16px;
+    padding-top: 17px;
 
     font-size: 52px;
+    line-height: 1.41;
   }
 }
 
@@ -242,7 +240,7 @@
     position: absolute;
     display: block;
     z-index: 10;
-    top: 50%;
+    top: 54%;
 
     margin-top: -25px;
   }
@@ -275,11 +273,11 @@
   }
 
   .next {
-    right: 1%;
+    right: 0;
   }
 
   .previous {
-    left: 1%;
+    left: 0;
   }
 
   .about__radio-first:checked~.previous .page-first,
@@ -313,13 +311,13 @@
 
 @media (max-width: 320px) {
   .about__title {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
     font-size: 20px;
   }
 
   .about__subtitle {
-    margin-bottom: 26px;
-    padding: 0 22px;
+    margin-bottom: 28px;
+    padding: 0 27px;
     font-size: 16px;
   }
 

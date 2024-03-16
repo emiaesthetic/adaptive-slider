@@ -12,7 +12,7 @@
 }
 
 .callback__title {
-  margin-bottom: 17px;
+  margin-bottom: 20px;
 
   font-size: 35px;
   font-weight: 700;
@@ -39,7 +39,7 @@
 .form__input {
   width: 423px;
   height: 44px;
-  padding-left: 26px;
+  padding-left: 23px;
   border: 2px solid var(--color-light);
 
   font-size: 22px;
@@ -61,7 +61,7 @@
 
 .form__button {
   margin-bottom: 50px;
-  padding: 11px 38px;
+  padding: 13px 38px;
   color: var(--color-light);
 }
 
@@ -69,6 +69,7 @@
   color: var(--color-accent);
   text-decoration: underline;
   text-decoration-color: var(--color-accent);
+  text-underline-offset: 4px;
   transition-property: color, text-decoration-color;
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--transition-timing-function);
@@ -91,11 +92,12 @@
 
 @media (max-width: 1024px) {
   .callback {
+    padding-top: 70px;
     padding-bottom: 56px;
   }
 
   .callback__title {
-    margin-bottom: 16px;
+    margin-bottom: 18px;
     font-size: 32px;
   }
 
@@ -103,8 +105,12 @@
     font-size: 20px;
   }
 
+  .form__details {
+    row-gap: 20px;
+  }
+
   .form__input {
-    width: 377px;
+    width: 379px;
     height: 39px;
     padding-left: 23px;
 
@@ -164,17 +170,18 @@
   }
 
   .callback__title {
-    margin-bottom: 10px;
+    margin-bottom: 16px;
     font-size: 20px;
   }
 
   .form__title {
-    margin-bottom: 35px;
+    margin-bottom: 37px;
     font-size: 12px;
   }
 
   .form__details {
     margin-bottom: 45px;
+    row-gap: 14px;
   }
 
   .form__input {
@@ -186,7 +193,7 @@
 
   .form__button {
     margin-bottom: 30px;
-    padding: 10px 26px;
+    padding: 10px 30px;
   }
 
   .form__agreement {

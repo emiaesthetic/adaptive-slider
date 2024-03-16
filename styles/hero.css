@@ -63,14 +63,14 @@
 
   .hero__title {
     max-width: 780px;
-    margin-bottom: 28px;
+    margin-bottom: 29px;
 
     font-size: 40px;
   }
 
   .hero__description {
     max-width: 754px;
-    margin-bottom: 60px;
+    margin-bottom: 59px;
 
     font-size: 18px;
   }
@@ -108,17 +108,19 @@
   }
 
   .hero__title {
-    margin-bottom: 23px;
+    margin-bottom: 27px;
     font-size: 20px;
   }
 
   .hero__description {
-    margin-bottom: 54px;
+    height: 77px;
+    overflow: hidden;
+    margin-bottom: 56px;
     font-size: 14px;
   }
 
   .button {
-    padding: 9px 29px;
+    padding: 9px 39px;
     font-size: 16px;
   }
 }
